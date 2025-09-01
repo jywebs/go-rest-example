@@ -7,7 +7,7 @@ import (
 	"github.com/gorilla/mux"
 	"github.com/jywebs/go-rest-example/internal/handler"
 	httpSwagger "github.com/swaggo/http-swagger"
-	_ "github.com/jywebs/go-rest-example/api"
+	_ "github.com/jywebs/go-rest-example/docs" // This is where swag generates the docs
 )
 
 // @title BusyBox Command Executor API
